@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesPedido.css">
+    <link rel="shortcut icon" href="Imagens/Logomarca.ico" type="image/x-icon">
+    <title>Faça seu Pedido</title>
+</head>
+<body>
+    <Header>
+            <ul>
+                <li><a href="Index.html"><b>Página Inicial</b></a></li>
+                <li><a href="Historia.html"><b>História</b></a></li>
+                <li><a href="Perguntas.html"><b>Perguntas Frequentes</b></a></li>
+                <li><a href="Pedido.html"> <b>Faça seu pedido</b> </a></li>
+            </ul>
+            <h1> Feira dos Brindes </h1>
+            <img src="imagens/Logomarca.png" alt="Logomarca">
+</Header>
+<h1>Faça seu pedido</h1>
+<form action="">
+
+<label for="Nome"> Digite seu nome Completo:</label>
+</br>
+<input type="text" name="Nome" placeholder="Digite seu nome">
+</br>
+</br>
+<label for="Email"> Digite seu e-mail para contato:</label>
+</br>
+<input type="email" name="Email" placeholder="Digite seu email">
+</br>
+</br>
+<label for="Telefone"> Digite seu Telefone para contato:</label>
+</br>
+<input type="tel" name="Telefone" placeholder="Digite seu Telefone para contato">
+</br>
+</br>
+<input type="radio" name="Caneca" id="caneca"> Caneca de Porcelana 325ml
+</br>
+<input type="radio" name="Xícara" id="xicara">  Xícara de Porcelana 200ml
+</br>
+</br>
+<label for="file">Insira as imagens que deseja para seu produto</label>
+</br>
+<input type="file" name="arquivos" multiple>
+</br>
+</br>
+<input type="button" value="Enviar" onclick="msg()"> 
+
+</form>
+<script>
+    function msg(){
+        alert("Recebemos sua solicitação. Logo retornaremos o contato!")
+    }
+</script>
+
+
+
+
+<Menu>
+    <h3>Menu >>>>>>>>>>>>></h3>
+            <b><a href="Index.html">Página Inicial</a></b>
+            <b><a href="Historia.html">História </a></b>
+            <b><a href="Perguntas.html">Perguntas Frequentes </a></b>
+            <b><a href="Pedido.html">Faça seu pedido </a></b>
+   
+    </Menu>
+
+    <footer>
+        <img src="Imagens/Logomarca.png" alt="Logomarca">
+        <article>
+            <h1>DÚVIDAS?</h1>
+            <p>Entre em contato pelo e-mail:<a href="mailto:grupocvs.brindes@gmail.com">grupocvs.brindes@gmail.com</a> 
+                para saber mais sobre o projeto</p>
+                <p><b>Camila Valença &copy; 2023</b></p>
+        </article>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116677.81844480496!2d-46.501078148407835!3d-23.954009682417443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1be795087ec7%3A0xe6e95e9915fa8605!2sS%C3%A3o%20Vicente%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1681066608283!5m2!1spt-BR!2sbr" 
+        width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </footer>
+</body>
+</html>

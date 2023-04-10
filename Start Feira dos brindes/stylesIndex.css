@@ -1,0 +1,116 @@
+body{
+    background-image: url("imagens/Xicara\ GRATIDAO.jpg");
+    background-blend-mode:color-dodge ;
+}
+body nav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0404a0;
+}
+body nav h1{
+    font-size: 30px;
+}
+body nav img{
+    border: 5px solid #6aa3db;
+}
+
+body section{
+    display: flex;
+}
+body section article img{
+ size: 5px;
+}
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        border: 2px solid #f50808;
+        background-color:darkturquoise;
+    }
+    header h1{
+        display: flex;
+        padding: 20px;
+        font-family: cursive;
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(223, 14, 14);
+    }
+    header ul{
+        list-style: none;
+    }
+    header ul li{
+        font-family: cursive;
+        font-size: 17px;
+        padding: 7px;
+        font-style: italic;
+    }
+    header ul li a{
+        color: rgb(238, 11, 11);
+    
+    }
+ 
+    section nav{
+        display:flex;
+        justify-content:space-around;
+        margin-top: 30px;
+        text-align: center;
+        font-family: cursive;
+        color: antiquewhite;
+    }
+    section nav pre{
+        text-align:justify;
+        font-size:medium;
+    }
+   
+    aside{
+        display:flex;
+        justify-content:space-around;
+        margin-top: 30px;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    aside img{
+        border: 5px blue solid;
+    }
+
+    body article{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+   video{
+        text-align: center;
+        margin-top: 60px;
+        border-radius: 10px;
+        border: 5px solid #3a08f0;
+    }
+
+Menu{
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center; 
+    color: aliceblue;
+}
+Menu a{
+    display: inline-flex;
+    border-radius: 3px;
+    background-color: darkturquoise;
+    color: hsl(0, 96%, 42%);
+    margin-right: 50px;
+    margin-left: 50px; 
+}
+
+
+footer{
+    display:flex;
+    background-color: darkturquoise;
+    border: 2px solid #f50808;
+    padding: 20px;
+}
+footer article{
+    padding: 15px;
+    text-align: center;
+}
+
+
